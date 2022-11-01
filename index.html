@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aries Photography</title>
+    <link href="/CSS/homestyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <scipt href="/ariesWebsiteJS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head> 
+<body>
+    
+    
+        
+       
+   
+    <div class=container> 
+
+      <div class="box1">
+        
+        <h1 class="header" >Shots By Aries</h1>
+    
+       
+        <ul id="list" style="list-style: none;">
+            
+            <li onClick="location.href = '/HTML/contact.html';" id="contact">Contact</li>
+            <li onClick="location.href = '/HTML/about.html';" id="about">About</li>
+            <li>        <a href="https://www.instagram.com/Shotsbyaries" class="fa fa-instagram"></a>
+            </li>
+            <li>        <a href="mailto:oneillaries@gmail.com" class="fa fa-envelope"></a>
+            </li>
+ 
+        </ul>
+
+    </div>  
+
+    <h2 class="header2">GALLERIES</h2>
+
+    
+    <div class="box2">
+    
+
+        <figure class="pic1">
+            <img src="/home_images/eZy Watermark_29-12-2021_10-29-12PM.jpeg" alt="pic" onClick="location.href = '/HTML/sceneryGallery.html'"/>
+            <figcaption>
+                <h2>PLACES</h2>
+            </figcaption>
+        </figure>
+
+        <figure class="pic2">
+            <img src="/home_images/IMG_1585.jpg" alt="pic-1" onClick="location.href = '/HTML/projects.html';"/>
+            <figcaption>
+                <h2>PROJECTS</h2>
+            </figcaption>
+        </figure>
+
+        <figure class="pic3">
+            <img src="/home_images/eZy Watermark_20-11-2021_12-26-39PM.jpeg" alt="pic-2" onClick="location.href = '/HTML/portraitGallery.html'"/>
+            <figcaption>
+                <h2>PEOPLE</h2>
+            </figcaption>
+        </figure>
+
+
+    </div>
+
+    <div class="box3">
+       
+
+    </div>
+</div>
+
+    
+
+
+
+ 
+  
+
+    
+<script type="text/javascript">
+    $('ul li').hover(  function(e){
+    $('#background').removeClass().addClass($(this).attr('rel'));
+    $(this).addClass('active').siblings().removeClass('active');
+});
+</script>
+  
+
+    
+</body>
+
+
+</html>
