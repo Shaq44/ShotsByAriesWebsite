@@ -1,0 +1,153 @@
+
+  
+
+
+img{
+    width:300px;
+    height: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin:2.5px;
+    
+    
+}
+
+.title{
+    font-family: "Audiowide";
+    font-size: 4em;
+}
+
+.summary{
+    font-family: "Audiowide" ;
+    font-size: 1em;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    
+    
+    
+}
+
+body{
+    text-align: center;
+    background-color:black;
+    color:white;
+    
+
+    
+   
+}
+
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Audiowide";
+    font-size:1em;
+    color: grey;
+}
+
+#scenery{
+    
+    
+    background-color: black;
+    font-size:xx-large;
+    font-size:xx-large;
+    margin-top:15px;
+    border-spacing: 10px;
+    
+}
+#scenery:hover{
+    
+    cursor:pointer;
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
+
+#potrait{
+    
+    
+    background-color: black;
+    font-size:xx-large;
+    margin-top:15px;
+    
+}
+
+#potrait:hover{
+   
+    cursor:pointer;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(212, 0, 255),
+    0 0 82px rgb(212, 0, 255),
+    0 0 92px rgb(183, 0, 255),
+    0 0 102px rgb(212, 0, 255),
+    0 0 151px rgb(204, 0, 255);
+    
+
+}
+
+#Event{
+  
+    
+    background-color: black;
+    font-size:xx-large;
+    margin-top:15px;
+    text-align: center;
+    
+
+}
+#Event:hover{
+ cursor:pointer;
+ text-shadow:
+ 0 0 7px #fff,
+ 0 0 10px #fff,
+ 0 0 21px #fff,
+ 0 0 42px rgb(217, 255, 0),
+ 0 0 82px rgb(217, 255, 0),
+ 0 0 92px rgb(251, 255, 0),
+ 0 0 102px rgb(217, 255, 0),
+ 0 0 151px rgb(208, 255, 0);
+   
+
+}
+
+#Food{
+    
+    
+    background-color: black;
+    font-size:xx-large;
+    margin-top:15px;
+    
+}
+
+#Food:hover{
+    cursor:pointer;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(0, 26, 255),
+    0 0 82px rgb(76, 0, 255),
+    0 0 92px rgb(47, 0, 255),
+    0 0 102px rgb(17, 0, 255),
+    0 0 151px rgb(47, 0, 255);
+
+}

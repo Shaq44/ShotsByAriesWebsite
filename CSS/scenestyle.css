@@ -1,0 +1,163 @@
+.gallery1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*overflow: hidden;*/
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end:4;
+
+   /* background-color: blue;*/
+}
+
+.gallery2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*overflow: hidden;*/
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end:4;
+   /* background-color: blue;*/
+}
+
+.gallery3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*overflow: hidden;*/
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:4;
+   /* background-color: blue;*/
+}
+
+
+
+h1{
+    text-align:center;
+    color:white;
+    font-family: "Bebas Neue";
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+
+
+body{
+    background-color:black;
+}
+
+
+
+
+
+
+img{
+    
+    width:350px;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin:10px 10px;
+    cursor: pointer;
+    border: solid;
+    border-width:5px ;
+    border-color: white;
+}
+#home{
+    margin:0 20px;
+    color:white;
+    cursor: pointer;
+}
+.container{
+    /*height: 100%;
+    width:100%;*/
+    display: grid;
+    grid-gap:10px;
+    
+}
+
+#contact{
+    margin:0 20px;
+    cursor: pointer;
+    color:white;
+}
+
+#about{
+    margin:0 20px;
+    cursor: pointer;
+    color:white;
+}   
+#list{
+    position: relative;
+    top:-25px;
+    display: flex;
+    flex-direction: row;
+    font-size:2em;
+    justify-content: center;
+    font-family: "Bebas Neue";
+    background-color: rgb(61, 6, 61);
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+
+    }
+    
+    .fa-instagram{
+        text-decoration:none;
+        color:white;
+    }
+    
+    .fa-envelope{
+        color:white;
+        margin:0 20px;
+    }
+    
+    #contact:hover{
+        color:gray;
+        transform: translateY(-5px);
+        transition:0.5s;
+    }
+    
+    #about:hover{
+        color:gray;
+        transform: translateY(-5px);
+        transition:0.5s;
+    
+    
+    }
+    
+    #home:hover{
+        color:gray;
+        transform: translateY(-5px);
+        transition:0.5s;
+    
+    
+    }
+    
+    .fa-instagram:hover{
+        color:gray;
+        transform: translateY(-5px);
+        transition:0.5s;
+    
+    
+    }
+    
+    .fa-envelope:hover{
+        color:gray;
+        transform: translateY(-5px);
+        transition:0.5s;
+    
+    
+    }
+    

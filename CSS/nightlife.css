@@ -1,0 +1,106 @@
+body{
+   background-color: black;
+   overflow-x: hidden;
+}
+
+img{
+    
+    width:500px;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin:10px;
+    cursor: pointer;
+    border: solid;
+    border-width:5px ;
+}
+
+.container{
+    font-family:"Bebas Neue";
+    text-align:center;
+    align-items: center;
+   background-color: black;
+    color:white;
+}
+
+.menu-nav{
+    font-family:"Bebas Neue";
+    height: 50px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61,6,61);
+
+}
+
+#home{
+    margin:0 20px;
+    cursor: pointer;
+}
+
+#contact{
+    margin:0 20px;
+    cursor: pointer;
+}
+
+#about{
+    margin:0 20px;
+    cursor: pointer;
+}
+
+#list{
+display: flex;
+flex-direction: row;
+font-size:2em;
+justify-content: center;
+}
+
+.fa-instagram{
+    text-decoration:none;
+    color:white;
+}
+
+.fa-envelope{
+    color:white;
+    margin:0 20px;
+}
+
+#contact:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+}
+
+#about:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+
+
+}
+
+#home:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+
+
+}
+
+.fa-instagram:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+
+
+}
+
+.fa-envelope:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+
+
+}

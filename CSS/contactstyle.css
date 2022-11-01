@@ -1,0 +1,191 @@
+
+body{
+    background-color: black;
+}
+.container{
+    display:grid;
+   /* padding:20px;*/
+   grid-gap:7px;
+   /*text-align:center;*/
+  /* grid-template-areas:
+   'menu,menu'
+   'requirements, price'
+   /*'price'*/
+    align-items: center;
+    background-color: black;
+   
+    
+}
+
+
+.menu-nav{
+    position:relative ;
+    top:-30px;
+    height: 50px;
+    width: 100%;
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 2em;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    /*box-sizing: border-box;*/
+    /*grid-column-start: 1;
+    grid-column-end:1;
+    grid-row-start: 4;
+    grid-row-end:4;*/
+    background-color: rgb(61, 6, 61);
+    
+}
+
+
+
+.title-bar{
+   /* border:solid;*/
+  /* background-color: green;*/
+   align-items: center;
+
+
+    
+}
+
+#name{
+cursor: pointer;
+
+}
+
+#home{
+    margin:0 20px;
+    cursor: pointer;
+}
+
+#home:hover{
+    color:gray;
+    transform:translateY(-5px);
+    transition:0.5s;
+}
+
+#about{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+#about:hover{
+    color:gray;
+    transform:translateY(-5px);
+    transition:0.5s;
+}
+
+.gui-textarea{
+    width:400px;
+    height:200px;
+    border: solid;
+}
+
+
+.requirements{
+    color:white;
+    font-family:"Bebas Neue";
+    font-size: 2em;
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
+#fname{
+    border:solid;
+    text-align:center;
+}
+
+#lname{
+    border:solid;
+    text-align:center;
+
+}
+.pricing{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 2em;
+    text-align: center;
+    list-style: none;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end:4;
+    
+}
+li{
+    list-style: none;
+}
+
+.booking-form{
+    color:white;
+    font-family: "Bebas Neue";
+    font-size: 2em;
+   /* background-color: red;*/
+    /*border:solid;*/
+    text-align:center;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end:5;}
+
+.fa-instagram{
+   
+    color:white;
+}
+
+.fa-envelope{
+    color:white;
+}
+
+.fa-envelope:hover{
+    color:gray;
+    transform:translateY(-5px);
+    transition:0.5s;
+}
+
+.fa-instagram:hover{
+    color:gray;
+    transform:translateY(-5px);
+    transition:0.5s;
+}
+
+.fa{
+    padding: 20px;
+  /* margin:0 20px;*/
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+input{
+    border-radius:5px;
+
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+#send{
+    background: purple;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+    padding:5px 10px;
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+#send:hover{
+    color:black;
+}
+

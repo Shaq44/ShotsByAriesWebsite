@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display:grid;
+    background-color: black;
+    color:white;
+}
+
+#backImage{
+    height: 500px;
+    width: auto;
+   float:left;
+    margin:20px;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+
+}
+
+.fa-instagram{
+    margin:0 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.fa-instagram:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+}
+
+.fa-envelope{
+    margin:0 20px;
+    color:white;
+}
+
+.fa-envelope:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+}
+
+
+#home{
+    cursor: pointer;
+    margin:0 20px;
+}
+
+#home:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+}
+
+#contact{
+    cursor: pointer;
+   
+
+}
+
+#contact:hover{
+    color:gray;
+    transform: translateY(-5px);
+    transition:0.5s;
+}
+
+#name{
+    cursor: pointer;
+    flex:3;
+}
+
+.menu-nav{
+    position: relative;
+    top:-70px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Bebas Neue";
+    font-size: 2em;
+    list-style: none;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+   background-color: rgb(61, 6, 61);
+}
+
+
+ 
+
+p{
+    color:white;
+    font-family: "Bebas Neue";
+    font-size: 2em;
+    object-position: right center;
+    margin: top 40px;
+    overflow: hidden;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+

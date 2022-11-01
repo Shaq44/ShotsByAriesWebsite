@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Pricing</title>
+    <link href="/CSS/contactstyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <?php include 'booking.php';?>
+
+
+</head>
+<body>
+<div class="container">
+
+    <nav class="title-bar">
+        
+        <ul class="menu-nav">
+            <li onclick="location.href ='/HTML/home.html';" id="home">Home</li>
+            <li onClick="location.href = '/HTML/about.html';" id="about">About</li>
+           <li><a href="https://www.instagram.com/Shotsbyaries" class="fa fa-instagram"></a></li>
+           <li></li> <a href="mailto:oneillaries@gmail.com" class="fa fa-envelope"></a></ul>
+    
+        </ul>
+        </nav>
+    
+        
+        <div class="requirements">
+            <h4>Requirements</h4>  
+            <ul>
+                <li>Must Be Scheduled 2 weeks ahead of time</li>
+                <li>Only based in Richmond, San Francisco, and Daly City</li>
+                <li>Must give deposit to book session</li>
+                <li>Cancellations must be made 2 days before session in order to get your deposit back</li>
+                <li>No shows will NOT GET THEIR DEPOSIT BACK</li>
+            </ul>
+        </div>
+    
+        <div class="pricing">
+            <h4>Prices for photoshoot</h4>
+            <ul>
+                <li>1 hour-$90($45 Deposit)</li>
+                <li>2 hours-$130($65 deoposit)</li>
+                <li>3 hours-$200($100 Deposit)</li>
+                <li>4+ hours-$300($150)</li>
+    
+            </ul>
+        </div>
+        
+       
+</div>
+
+<script type= "text/javascript">
+    $(document).ready(function(){
+        $("#send").click(function(){
+            var fname = $("#fname").val();
+            var lname = $("#lname").val();
+            var summary = $("#comment").val();
+            if(fname == ''||lname == ''||summary==''){
+                alert("please fill in required fields");
+            }else{
+                $.post(contact_form.php,{
+                    fname1: fname,
+                    lname1: lname,
+                    summary1: summary
+                },function(data){
+                    $("#summary").append(data);
+                    if(data == "your booking has been sent."){
+                        $("#bookingForm")[0].reset();
+                    }
+                })
+            }
+        })
+    })
+</script>
+  
+    
+</body>
+</html>

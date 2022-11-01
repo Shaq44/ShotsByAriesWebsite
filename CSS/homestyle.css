@@ -1,0 +1,441 @@
+body{
+    background-color: black;
+    /*background-image: url('/images/VNP00494.jpeg');*/
+    /*background-size: cover;*/
+
+    
+    
+  
+   
+}
+
+img{
+    
+    width:500px;
+    height: 100%;
+    /*object-fit: cover;*/
+    object-position: 50% 50%;
+    margin:10px;
+    cursor: pointer;
+    
+
+    
+    
+}
+
+.container{
+    display:grid;
+    font-family:"Bebas Neue";
+    /*background-image: url('/images/VNP00494.jpeg');*/
+   /* background-size: cover;*/
+    background-color:black;  
+    width: 100%;
+    height: 500px;
+}
+
+.header{
+    cursor: pointer;
+    margin-left:10px;
+   
+    
+}
+
+.header2{
+    cursor: pointer;
+    margin-left:10px;
+    color:white;
+    text-align: center;
+    font-size:3em;
+
+}
+
+.box1{
+    display:flex;
+    width:100%;
+    height: 50px;
+    color: white;
+    flex-direction: row;
+   background-color: black;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 6, 61);
+
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    font-size: 2em;
+
+}
+
+#contact{
+    margin:0 10px;
+}
+
+#about{
+    margin:0 10px;
+}
+
+#contact:hover{
+color:gray;
+transition: 0.5s;
+transform:translateY(-5px);
+}
+
+#about:hover{
+    color:gray;
+    transition: 0.5s;
+    transform:translateY(-5px);
+}
+
+.fa-instagram{
+    margin:0 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.fa-envelope{
+    margin:0 10px;
+    color:white;
+}
+
+.fa-envelope:hover{
+    color:grey;
+    transition: 1s;
+    transform:translateY(-5px);
+}
+
+.fa-instagram:hover{
+    color:grey;
+    transition: 1s;
+    transform:translateY(-5px);
+
+}
+
+.box2{
+   display: flex;
+   flex-direction: row;
+   /* margin:50px 0;*/
+   /* text-align: center;*/
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:1200px;
+}
+
+#list-two{
+    font-size:4em;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+
+
+
+#scene{
+    margin:0 5px;
+    cursor: pointer;
+    
+}
+
+#pot{
+    margin:0 5px;
+    cursor: pointer;
+}
+
+#events{
+    margin:0 5px;
+    cursor: pointer;
+}
+
+#scene:hover{
+    color:white;
+    transition:0.5s;
+}
+
+#pot:hover{
+    color:white;
+    transition:0.5s;
+}
+
+#events:hover{
+    color:white;
+    transition:0.5s;
+}
+
+figure.pic1{
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    color:white;
+    background-color: #000000;
+    /*width:100%;*/
+   font-family: "Bebas Neue";
+   height: 500px;
+   width:500px;
+   border: solid;
+   border-width:5px;
+
+    
+    
+}
+
+figure.pic1 *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition:all 0.4s ease-in-out ;
+    transition: all 0.4s ease-in-out;
+
+}
+
+figcaption.pic1 figcaption{
+    position: absolute;
+    color:white;
+}
+
+figure.pic1 h2{
+    position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: rgb(61, 2, 61);
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+   
+
+}
+
+figure.pic1 h2{
+    font-weight: 800;  
+}
+
+figure.pic1 img{
+    position:relative;
+    opacity:0.4;
+}
+
+figure.pic1:before{
+    overflow: hidden;
+    height: 100%;
+  width: 500px;
+  top: 0;
+  left: -100px;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(90deg) translateY(-50%);
+  transform: rotate(90deg) translateY(-50%);
+
+}
+
+figure.pic1:hover img,
+figure.pic1.hover img{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.pic1:hover h2,
+figure.pic1.hover h2{
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%); 
+}
+
+figure.pic1:hover:before,
+figure.pic1.hover:before{
+    -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+figure.pic2{
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    color:white;
+    background-color: #000000;
+    /*width:100%;*/
+   font-family: "Bebas Neue";
+   height: 500px;
+   width:500px;
+    border:solid;
+    border-width:5px;
+
+    
+}
+
+figure.pic2 *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition:all 0.4s ease-in-out ;
+    transition: all 0.4s ease-in-out;
+
+}
+
+figcaption.pic2 figcaption{
+    position: absolute;
+    color:white;
+}
+
+figure.pic2 h2{
+    position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: rgb(61, 2, 61);
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+   
+
+}
+
+figure.pic2 h2{
+    font-weight: 800;  
+}
+
+figure.pic2 img{
+    position:relative;
+    opacity:0.4;
+}
+
+figure.pic2:before{
+    overflow: hidden;
+    height: 100%;
+  width: 500px;
+  top: 0;
+  left: -100px;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(90deg) translateY(-50%);
+  transform: rotate(90deg) translateY(-50%);
+
+}
+
+figure.pic2:hover img,
+figure.pic2.hover img{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.pic2:hover h2,
+figure.pic2.hover h2{
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%); 
+}
+
+figure.pic2:hover:before,
+figure.pic2.hover:before{
+    -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+figure.pic3{
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    color:white;
+    background-color: #000000;
+    /*width:100%;*/
+   font-family: "Bebas Neue";
+   height: 500px;
+   width:500px;
+   border: solid;
+   border-width:5px;
+    
+    
+}
+
+figure.pic3 *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition:all 0.4s ease-in-out ;
+    transition: all 0.4s ease-in-out;
+
+}
+
+figcaption.pic3 figcaption{
+    position: absolute;
+    color:white;
+}
+
+figure.pic3 h2{
+    position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: rgb(61, 2, 61);
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+   
+
+}
+
+figure.pic3 h2{
+    font-weight: 800;  
+}
+
+figure.pic3 img{
+    position:relative;
+    opacity:0.4;
+}
+
+figure.pic3:before{
+    overflow: hidden;
+    height: 100%;
+  width: 500px;
+  top: 0;
+  left: -100px;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(90deg) translateY(-50%);
+  transform: rotate(90deg) translateY(-50%);
+
+}
+
+figure.pic3:hover img,
+figure.pic3.hover img{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.pic3:hover h2,
+figure.pic3.hover h2{
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%); 
+}
+
+figure.pic3:hover:before,
+figure.pic3.hover:before{
+    -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
