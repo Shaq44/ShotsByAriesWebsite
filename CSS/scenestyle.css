@@ -1,15 +1,29 @@
+
+
+body{
+    background-color:black;
+   
+    
+    
+}
+
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    
+    
+}
 .gallery1{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*overflow: hidden;*/
-    grid-column-start: 1;
-    grid-column-end:2;
-    grid-row-start:3;
-    grid-row-end:4;
+    overflow: hidden;
+   
 
-   /* background-color: blue;*/
+   
 }
 
 .gallery2{
@@ -17,46 +31,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*overflow: hidden;*/
-    grid-column-start: 2;
-    grid-column-end:3;
-    grid-row-start:3;
-    grid-row-end:4;
-   /* background-color: blue;*/
+
+   
+   
 }
-
-.gallery3{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /*overflow: hidden;*/
-    grid-column-start: 3;
-    grid-column-end:4;
-    grid-row-start:3;
-    grid-row-end:4;
-   /* background-color: blue;*/
-}
-
-
-
-h1{
-    text-align:center;
-    color:white;
-    font-family: "Bebas Neue";
-    grid-column-start: 1;
-    grid-column-end:4;
-    grid-row-start:2;
-    grid-row-end:3;
-}
-
-
-
-body{
-    background-color:black;
-}
-
-
 
 
 
@@ -78,13 +56,9 @@ img{
     color:white;
     cursor: pointer;
 }
-.container{
-    /*height: 100%;
-    width:100%;*/
-    display: grid;
-    grid-gap:10px;
-    
-}
+
+
+
 
 #contact{
     margin:0 20px;
@@ -99,18 +73,15 @@ img{
 }   
 #list{
     position: relative;
-    top:-25px;
+    top:-20px;
     display: flex;
     flex-direction: row;
-    font-size:2em;
+    font-size:1.40em;
     justify-content: center;
     font-family: "Bebas Neue";
     background-color: rgb(61, 6, 61);
-    grid-column-start: 1;
-    grid-column-end:4;
-    grid-row-start:1;
-    grid-row-end:2;
-
+    
+    
     }
     
     .fa-instagram{
@@ -160,4 +131,16 @@ img{
     
     
     }
-    
+
+    h1{
+        text-align:center;
+        color:white;
+        font-family: "Bebas Neue";
+     
+    }
+
+    @media(min-width:600px){
+        .container{grid-template-columns:repeat(2,1fr);}
+        
+    }
+
