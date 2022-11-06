@@ -3,8 +3,7 @@ body{
 }
 
 .container{
-    height: 100%;
-    width: 100%;
+   
     display:grid;
     background-color: black;
     color:white;
@@ -16,9 +15,7 @@ body{
    float:left;
     margin:20px;
     object-fit: cover;
-    grid-column-start: 1;
-    grid-row-start: 2;
-    grid-row-end: 3;
+ 
     
 
 }
@@ -84,10 +81,7 @@ body{
     font-size: 2em;
     list-style: none;
     justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 0;
-    grid-row-end: 1;
+   
    background-color: rgb(61, 6, 61);
 }
 
@@ -100,9 +94,10 @@ p{
     font-size: 2em;
     object-position: right center;
     margin: top 40px;
-    overflow: hidden;
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+   /* overflow: hidden;*/
+    
 }
 
+@media(min-width:650){
+    .container{grid-template-columns: repeat(2,1fr);}
+}

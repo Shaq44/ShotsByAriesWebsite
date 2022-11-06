@@ -31,12 +31,25 @@ img{
     
 }
 
+.gallery-wrapper{
+    max-width: 1200;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
 .gallery{
 display: flex;
 flex-direction:column;
 justify-content: center;
 align-items: center;
+}
 
+.gallery2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;  
 }
 
 #home{
@@ -57,14 +70,17 @@ align-items: center;
     color:white;
 }   
 #list{
-    top:-26px;
+    top:-20px;
+    padding-right: 60px;
     position: relative;
     display: flex;
     flex-direction: row;
-    font-size:2em;
+    font-size:1.35em;
+    overflow-y: auto;
     justify-content: center;
     font-family: "Bebas Neue";
     background-color: rgb(61,6,61);
+    
 
     }
     
